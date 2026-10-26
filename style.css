@@ -1,0 +1,78 @@
+:root {
+  --bg: #f0f0f3;
+  --text: #1a1a1a;
+  --link: #1f63c2;
+  --muted: #5a5a64;
+  --line: #d4d4dc;
+  --card: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+h1, h2 {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 2rem 0 0.75rem;
+}
+
+h1 { font-size: 2.1rem; margin-top: 0.5rem; }
+h2 { font-size: 1.5rem; }
+
+p, ul { margin: 0 0 1rem; }
+ul { padding-left: 1.4rem; }
+li { margin-bottom: 0.4rem; }
+
+a { color: var(--link); }
+
+.back { display: inline-block; margin-bottom: 1rem; font-weight: 700; }
+
+.game {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  margin: 0 0 1rem;
+}
+.game h3 {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 900;
+  font-size: 1.25rem;
+  margin: 0 0 0.25rem;
+}
+.game p { margin: 0; }
+
+.table-wrap { overflow-x: auto; margin: 0 0 1rem; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: var(--card);
+  font-size: 0.97rem;
+}
+th, td {
+  border: 1px solid var(--line);
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+th { background: #e6e6ec; font-weight: 800; }
+
+footer { margin-top: 3rem; color: var(--muted); font-size: 0.95rem; }
