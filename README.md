@@ -15,3 +15,7 @@ google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
 ```
 
 It will be served at https://joybarua93.github.io/app-ads.txt.
+
+## Fonts
+
+Fraunces (900) and Nunito (400, 700, 800) are self-hosted in `fonts/` as Latin-subset woff2 files, loaded in `style.css` with `@font-face`. Both are licensed under the SIL Open Font License 1.1. The page makes no requests to Google.
